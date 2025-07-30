@@ -1,3 +1,3 @@
 # CorpoSistemas - Guía rápida
 
-1. [Documentación legal](./sat/README.md)
+1. [Documentación SAT](./sat/README.md)
