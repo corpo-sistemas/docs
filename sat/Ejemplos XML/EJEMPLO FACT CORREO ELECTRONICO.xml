@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0" xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0" Version="0.1">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2023-04-27T22:34:42" Tipo="FACT"/>
+				<dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" NITEmisor="800000001026" NombreComercial="Imprenta el Norte" NombreEmisor="Agencia Impresora S.A.">
+					<dte:DireccionEmisor>
+						<dte:Direccion xmlns="">Ciudad</dte:Direccion>
+						<dte:CodigoPostal xmlns="">01000</dte:CodigoPostal>
+						<dte:Municipio xmlns="">Coban</dte:Municipio>
+						<dte:Departamento xmlns="">Alta Verapaz</dte:Departamento>
+						<dte:Pais xmlns="">GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor IDReceptor="CF" NombreReceptor="CF">
+					<dte:DireccionReceptor>
+						<dte:Direccion xmlns="">correoagmail.com</dte:Direccion>
+						<dte:CodigoPostal xmlns="">01000</dte:CodigoPostal>
+						<dte:Municipio xmlns="">.</dte:Municipio>
+						<dte:Departamento xmlns="">.</dte:Departamento>
+						<dte:Pais xmlns="">GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase CodigoEscenario="0" TipoFrase="0"/>
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item BienOServicio="B" NumeroLinea="1">
+						<dte:Cantidad>1.0000000</dte:Cantidad>
+						<dte:UnidadMedida>UNI</dte:UnidadMedida>
+						<dte:Descripcion>1</dte:Descripcion>
+						<dte:PrecioUnitario>1.0000000</dte:PrecioUnitario>
+						<dte:Precio>1.0000000</dte:Precio>
+						<dte:Descuento>0</dte:Descuento>
+						<dte:Impuestos>
+							<dte:Impuesto>
+								<dte:NombreCorto>IVA</dte:NombreCorto>
+								<dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+								<dte:MontoGravable>0.8928571</dte:MontoGravable>
+								<dte:MontoImpuesto>0.1071429</dte:MontoImpuesto>
+							</dte:Impuesto>
+						</dte:Impuestos>
+						<dte:Total>1.0000000</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:TotalImpuestos>
+						<dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0.107143"/>
+					</dte:TotalImpuestos>
+					<dte:GranTotal>1.0000000</dte:GranTotal>
+				</dte:Totales>
+			</dte:DatosEmision>
+		</dte:DTE>
+		<dte:Adenda>
+			<CorreoElectronico xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="Schema-ediFactura">
+				<Adjuntos>XML PDF</Adjuntos>
+				<Para>A</Para>
+				<De>postmaster@corposistemasgt.com</De>
+				<Asunto>Envio de documento electrónico</Asunto>
+			</CorreoElectronico>
+			<dte:DetallesAdicional>
+				<dte:DetalleAdicional>
+					<dte:InformacionAdicional>0</dte:InformacionAdicional>
+				</dte:DetalleAdicional>
+			</dte:DetallesAdicional>
+			<Adicionales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="Schema-totalletras">
+				<TotalEnLetras>UN CON 00/100 QUETZALES.</TotalEnLetras>
+			</Adicionales>
+		</dte:Adenda>
+	</dte:SAT>
+</dte:GTDocumento>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:wmdte="http://walmart.com.gt/dte"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1"
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+    <dte:SAT ClaseDocumento="dte">
+        <dte:DTE ID="DatosCertificados">
+            <dte:DatosEmision ID="DatosEmision">
+                <dte:DatosGenerales Tipo="FCAM" FechaHoraEmision="2019-11-29T00:00:00"
+                    CodigoMoneda="GTQ"/>
+                <dte:Emisor NITEmisor="3163660" NombreEmisor="WAGSA" CodigoEstablecimiento="1"
+                    NombreComercial="WAGSA" CorreoEmisor="tucorreo@me.org" AfiliacionIVA="GEN">
+                    <dte:DireccionEmisor>
+                        <dte:Direccion>KM 20 BARCENAS VILLA NUEVA COMPLEJO INDUSTRIAL UNISUR BODEGA
+                            C4</dte:Direccion>
+                        <dte:CodigoPostal>01064</dte:CodigoPostal>
+                        <dte:Municipio>VILLA NUEVA</dte:Municipio>
+                        <dte:Departamento>GUATEMALA</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionEmisor>
+                </dte:Emisor>
+                <dte:Receptor IDReceptor="7378106" NombreReceptor="OPERADORA DE TIENDAS, S.A."
+                    CorreoReceptor="">
+                    <dte:DireccionReceptor>
+                        <dte:Direccion>KM17 RUTA AL PACIFICO ACCESO A BARCENA VILLA NUEVA
+                            CD</dte:Direccion>
+                        <dte:CodigoPostal>01009</dte:CodigoPostal>
+                        <dte:Municipio>GUATEMALA</dte:Municipio>
+                        <dte:Departamento>GUATEMALA</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionReceptor>
+                </dte:Receptor>
+                <dte:Frases>
+                    <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+                    <dte:Frase TipoFrase="2" CodigoEscenario="1"/>
+                </dte:Frases>
+                <dte:Items>
+                    <dte:Item NumeroLinea="1" BienOServicio="S">
+                        <dte:Cantidad>170.00000000</dte:Cantidad>
+                        <dte:UnidadMedida>U</dte:UnidadMedida>
+                        <dte:Descripcion>RUBIOS MNT KS BOX 20</dte:Descripcion>
+                        <dte:PrecioUnitario>17.500000000000000</dte:PrecioUnitario>
+                        <dte:Precio>2975.000000</dte:Precio>
+                        <dte:Descuento>107.100000</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>2560.625000</dte:MontoGravable>
+                                <dte:MontoImpuesto>307.275000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>2867.900000</dte:Total>
+                    </dte:Item>
+                </dte:Items>
+                <dte:Totales>
+                    <dte:TotalImpuestos>
+                        <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="307.275000"/>
+                    </dte:TotalImpuestos>
+                    <dte:GranTotal>2867.900000</dte:GranTotal>
+                </dte:Totales>
+                <dte:Complementos>
+                    <dte:Complemento NombreComplemento="AbonosFacturaCambiaria"
+                        URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0">
+                        <cfc:AbonosFacturaCambiaria Version="1">
+                            <cfc:Abono>
+                                <cfc:NumeroAbono>1</cfc:NumeroAbono>
+                                <cfc:FechaVencimiento>2020-01-28</cfc:FechaVencimiento>
+                                <cfc:MontoAbono>45828.863852</cfc:MontoAbono>
+                            </cfc:Abono>
+                        </cfc:AbonosFacturaCambiaria>
+                    </dte:Complemento>
+                </dte:Complementos>
+            </dte:DatosEmision>
+        </dte:DTE>
+        <dte:Adenda>
+            <wmdte:Walmart version="1.2">
+                <wmdte:WM-FACT>
+                    <wmdte:WMMercaderia>
+                        <wmdte:WMNumeroOrden>4900661380</wmdte:WMNumeroOrden>
+                        <wmdte:WMFechaOrden>15/11/2019</wmdte:WMFechaOrden>
+                        <wmdte:WMNumeroVendedor>014548010</wmdte:WMNumeroVendedor>
+                        <wmdte:WMEnviarGLN>7407001008593</wmdte:WMEnviarGLN>
+                        <wmdte:WMNumeroRecepcion>83484</wmdte:WMNumeroRecepcion>
+                    </wmdte:WMMercaderia>
+                </wmdte:WM-FACT>
+            </wmdte:Walmart>
+        </dte:Adenda>
+    </dte:SAT>
+</dte:GTDocumento>

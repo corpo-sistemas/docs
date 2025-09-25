@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:crc="http://www.sat.gob.gt/face2/ComplementoReferenciaConstancia/0.1.0"
+	xmlns:cesp="http://www.sat.gob.gt/face2/ComplementoEspectaculos/0.1.0"
+	xmlns:ctrasmer="http://www.sat.gob.gt/face2/TrasladoMercancias/0.1.0"
+	xmlns:clepp="http://www.sat.gob.gt/face2/ComplementoPartidosPolitico/0.1.0"
+	xmlns:cmep="http://www.sat.gob.gt/face2/ComplementoMediosDePago/0.1.0"
+	xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+	xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+	xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+	xmlns:cca="http://www.sat.gob.gt/face2/CobroXCuentaAjena/0.1.0"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:ctup="http://www.sat.gob.gt/face2/ComplementoTurismoPasaje/0.1.0"
+	xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" Version="0.1"
+	xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales Tipo="FACT" FechaHoraEmision="2024-06-05T09:17:35"
+					CodigoMoneda="GTQ" />
+				<dte:Emisor NITEmisor="75707497"
+					NombreEmisor="EXPORTADORA ELEFANTE DE GUATEMALA, SOCIEDAD ANONIMA"
+					CodigoEstablecimiento="1" NombreComercial="EXPOELEFANTE" AfiliacionIVA="GEN">
+					<dte:DireccionEmisor>
+						<dte:Direccion>ALDEA ACATAN 12-69 Zona 16</dte:Direccion>
+						<dte:CodigoPostal>01000</dte:CodigoPostal>
+						<dte:Municipio>GUATEMALA</dte:Municipio>
+						<dte:Departamento>GUATEMALA</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor IDReceptor="CF" NombreReceptor="Consumidor Final">
+					<dte:DireccionReceptor>
+						<dte:Direccion>Ciudad</dte:Direccion>
+						<dte:CodigoPostal>01005</dte:CodigoPostal>
+						<dte:Municipio>.</dte:Municipio>
+						<dte:Departamento>.</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase TipoFrase="1" CodigoEscenario="1" />
+					<dte:Frase TipoFrase="4" CodigoEscenario="11" />
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item NumeroLinea="1" BienOServicio="B">
+						<dte:Cantidad>1.0000000000</dte:Cantidad>
+						<dte:UnidadMedida>UNI</dte:UnidadMedida>
+						<dte:Descripcion>Item de Prueba</dte:Descripcion>
+						<dte:PrecioUnitario>10.000000</dte:PrecioUnitario>
+						<dte:Precio>10.000000</dte:Precio>
+						<dte:Descuento>0</dte:Descuento>
+						<dte:Impuestos>
+							<dte:Impuesto>
+								<dte:NombreCorto>IVA</dte:NombreCorto>
+								<dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+								<dte:MontoGravable>8.928571</dte:MontoGravable>
+								<dte:MontoImpuesto>1.071429</dte:MontoImpuesto>
+							</dte:Impuesto>
+						</dte:Impuestos>
+						<dte:Total>10.000000</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:TotalImpuestos>
+						<dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="1.071429" />
+					</dte:TotalImpuestos>
+					<dte:GranTotal>9.999999</dte:GranTotal>
+				</dte:Totales>
+			</dte:DatosEmision>
+		</dte:DTE>
+		<dte:Adenda>
+			<Adicionales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="Schema-totalletras">
+				<TotalEnLetras>DIEZ QUETZALES EXACTOS </TotalEnLetras>
+			</Adicionales>
+		</dte:Adenda>
+	</dte:SAT>
+</dte:GTDocumento>

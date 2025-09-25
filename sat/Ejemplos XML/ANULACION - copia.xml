@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dte:GTAnulacionDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0" 
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+Version="0.1" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.1.0 GT_AnulacionDocumento-0.1.0.xsd">
+	<dte:SAT>
+	
+	
+		<dte:AnulacionDTE ID="DatosCertificados">
+			<dte:DatosGenerales FechaEmisionDocumentoAnular="2023-04-14T14:48:07" 
+			FechaHoraAnulacion="2023-04-14T17:15:16.4779991-06:00" ID="DatosAnulacion" IDReceptor="19" 
+			MotivoAnulacion="Prueba Anulacion Fel" NITEmisor="800000001026" NumeroDocumentoAAnular="A342645C-6967-43D2-9798-A68B3D8C4FDF"/>
+		</dte:AnulacionDTE>
+	</dte:SAT>
+</dte:GTAnulacionDocumento>

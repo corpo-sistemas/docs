@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1"
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+    <dte:SAT ClaseDocumento="dte">
+        <dte:DTE ID="DatosCertificados">
+            <dte:DatosEmision ID="DatosEmision">
+                <dte:DatosGenerales Tipo="FCAM" FechaHoraEmision="2019-09-27T00:00:00"
+                    CodigoMoneda="GTQ"/>
+                <dte:Emisor NITEmisor="3163660"
+                    NombreEmisor="WACKENHUT DE GUATEMALA, SOCIEDAD ANONIMA"
+                    CodigoEstablecimiento="1" NombreComercial="WAGSA"
+                    CorreoEmisor="correo@gmail.com" AfiliacionIVA="GEN">
+                    <dte:DireccionEmisor>
+                        <dte:Direccion>AVENIDA PETAPA 42-51 ZONA 12</dte:Direccion>
+                        <dte:CodigoPostal>1012</dte:CodigoPostal>
+                        <dte:Municipio>GUATEMALA</dte:Municipio>
+                        <dte:Departamento>GUATEMALA</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionEmisor>
+                </dte:Emisor>
+                <dte:Receptor IDReceptor="6869769" NombreReceptor="PRINT STUDIO, S.A."
+                    CorreoReceptor="correo@gmail.com">
+                    <dte:DireccionReceptor>
+                        <dte:Direccion>39 CALLE C 13-50, ZONA 8</dte:Direccion>
+                        <dte:CodigoPostal>0</dte:CodigoPostal>
+                        <dte:Municipio>GUATEMALA</dte:Municipio>
+                        <dte:Departamento>GUATEMALA</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionReceptor>
+                </dte:Receptor>
+                <dte:Frases>
+                    <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+                    <dte:Frase TipoFrase="2" CodigoEscenario="1"/>
+                </dte:Frases>
+                <dte:Items>
+                    <dte:Item NumeroLinea="1" BienOServicio="S">
+                        <dte:Cantidad>2.00</dte:Cantidad>
+                        <dte:UnidadMedida>GDA</dte:UnidadMedida>
+                        <dte:Descripcion>DOS (2) GUARDIAS GARITA PRINCIPAL DE L-D UNO POR
+                            TURNO</dte:Descripcion>
+                        <dte:PrecioUnitario>4605.80</dte:PrecioUnitario>
+                        <dte:Precio>9211.60</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>8224.642857</dte:MontoGravable>
+                                <dte:MontoImpuesto>986.957143</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>9211.60</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="2" BienOServicio="S">
+                        <dte:Cantidad>2.00</dte:Cantidad>
+                        <dte:UnidadMedida>GDA</dte:UnidadMedida>
+                        <dte:Descripcion>DOS (2) GUARDIAS REFUERZO GARITA PRINCIPAL DE L-D UNO POR
+                            TURNO</dte:Descripcion>
+                        <dte:PrecioUnitario>4605.80</dte:PrecioUnitario>
+                        <dte:Precio>9211.60</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>8224.642857</dte:MontoGravable>
+                                <dte:MontoImpuesto>986.957143</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>9211.60</dte:Total>
+                    </dte:Item>
+                </dte:Items>
+                <dte:Totales>
+                    <dte:TotalImpuestos>
+                        <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="1973.914286"/>
+                    </dte:TotalImpuestos>
+                    <dte:GranTotal>18423.20</dte:GranTotal>
+                </dte:Totales>
+                <dte:Complementos>
+                    <dte:Complemento NombreComplemento="AbonosFacturaCambiaria"
+                        URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0">
+                        <cfc:AbonosFacturaCambiaria Version="1">
+                            <cfc:Abono>
+                                <cfc:NumeroAbono>1</cfc:NumeroAbono>
+                                <cfc:FechaVencimiento>2019-10-27</cfc:FechaVencimiento>
+                                <cfc:MontoAbono>18423.20</cfc:MontoAbono>
+                            </cfc:Abono>
+                        </cfc:AbonosFacturaCambiaria>
+                    </dte:Complemento>
+                </dte:Complementos>
+            </dte:DatosEmision>
+        </dte:DTE>
+        <dte:Adenda>
+            <CamposAdionales>
+                <EncabezadoAdicional>
+                    <IdInterno>IPAL0500015593</IdInterno>
+                    <TotalEnLetras>DOS MIL OCHOCIENTOS VEINTIDOS DÓLARES CON 40/100</TotalEnLetras>
+                    <TasaDeCambio>7.520000</TasaDeCambio>
+                    <TextoFacturaCambiaria>Al vencer esta única factura cambiaria girada libre de
+                        protesto a la orden de Premezclas Latinoamericanas, S. A. usted deberá pagar
+                        en las oficinas de Premezclas Latinoamericanas, S. A. el valor total por el
+                        que fue extendida la misma o por el último saldo insoluto que aparezca en
+                        los registros contables de Premezclas Latinoamericanas, S. A. La firma de
+                        cualquier empleado o dependiente del comprador es prueba de la aceptación de
+                        esta factura cambiaria y obligará a cumplir con todas las condiciones
+                        estipuladas en la misma. El comprador de como bueno el valor total de esta
+                        factura cambiaria y se compromete a cancelar dicho valor al vencerse a favor
+                        de Premezclas Latinoamericanas, S. A. En caso de incumplimiento el cliente
+                        renuncia al fuero de su domicilio y se somete a los tribunales de la Ciudad
+                        de Guatemala. En caso de incumplimiento en el pago de la presente factura el
+                        comprador se obliga a pagarle a Premezclas Latinoamericanas, S. A. intereses
+                        monetarios a razón de una tasa del 1% mensual, más los gastos y costos que
+                        se originen.</TextoFacturaCambiaria>
+                    <CodigoCliente>1002553</CodigoCliente>
+                    <Plazo>030</Plazo>
+                    <Envio>0080130129</Envio>
+                    <T.C.>T.C.GTQ1.00000 T.C. 7.68817</T.C.>
+                    <Nota1>0080121431</Nota1>
+                    <TotalKgs>xxx</TotalKgs>
+                </EncabezadoAdicional>
+                <DetallesAdicional>
+                    <DetalleAdicional>
+                        <CodigoProducto>403765</CodigoProducto>
+                        <KgPorSaco>27.00</KgPorSaco>
+                        <CantidadKg>135.00</CantidadKg>
+                    </DetalleAdicional>
+                    <DetalleAdicional>
+                        <CodigoProducto>40372</CodigoProducto>
+                        <KgPorSaco>21.97</KgPorSaco>
+                        <CantidadKg>131.82</CantidadKg>
+                    </DetalleAdicional>
+                    <DetalleAdicional>
+                        <CodigoProducto>402853</CodigoProducto>
+                        <KgPorSaco>10.00</KgPorSaco>
+                        <CantidadKg>10.00</CantidadKg>
+                    </DetalleAdicional>
+                </DetallesAdicional>
+            </CamposAdionales>
+            <CorreoElectronico xmlns="Schema-ediFactura"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="Schema-ediFactura esquemaAdendaEmail.xsd">
+                <De>info@documento</De>
+                <Para>ejemplo@correo.com</Para>
+                <Copia>miorganizacion@me.org</Copia>
+                <Asunto>DOCUMENTO TRIBUTARIO ELECTRONICO (PRUEBA - NO VALIDO)</Asunto>
+                <Adjuntos>XML PDF</Adjuntos>
+            </CorreoElectronico>
+        </dte:Adenda>
+    </dte:SAT>
+</dte:GTDocumento>

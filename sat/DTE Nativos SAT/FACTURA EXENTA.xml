@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1"
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+    <dte:SAT ClaseDocumento="dte">
+        <dte:DTE ID="DatosCertificados">
+            <dte:DatosEmision ID="DatosEmision">
+                <dte:DatosGenerales Tipo="FCAM" FechaHoraEmision="2019-09-06T09:11:20.493"
+                    CodigoMoneda="GTQ"/>
+                <dte:Emisor NITEmisor="123456" NombreEmisor="FARMACIA, SOCIEDAD ANONIMA"
+                    CodigoEstablecimiento="1" NombreComercial="'FARMACEUTICA'" AfiliacionIVA="GEN">
+                    <dte:DireccionEmisor>
+                        <dte:Direccion>CIUDAD</dte:Direccion>
+                        <dte:CodigoPostal>01000</dte:CodigoPostal>
+                        <dte:Municipio>Guatemala</dte:Municipio>
+                        <dte:Departamento>GUATEMALA</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionEmisor>
+                </dte:Emisor>
+                <dte:Receptor IDReceptor="18281753" NombreReceptor="JUAN CAMANEY">
+                    <dte:DireccionReceptor>
+                        <dte:Direccion>CASILLAS SANTA ROSA</dte:Direccion>
+                        <dte:CodigoPostal>0000</dte:CodigoPostal>
+                        <dte:Municipio>Casillas</dte:Municipio>
+                        <dte:Departamento>Santa Rosa</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionReceptor>
+                </dte:Receptor>
+                <dte:Frases>
+                    <dte:Frase TipoFrase="1" CodigoEscenario="2"/>
+                    <dte:Frase TipoFrase="2" CodigoEscenario="1"/>
+                    <dte:Frase TipoFrase="4" CodigoEscenario="9"/>
+                </dte:Frases>
+                <dte:Items>
+                    <dte:Item NumeroLinea="1" BienOServicio="B">
+                        <dte:Cantidad>10</dte:Cantidad>
+                        <dte:Descripcion>ATENOLOL 100 MG CAPLIN X 100 TABLETAS *</dte:Descripcion>
+                        <dte:PrecioUnitario>25.0000</dte:PrecioUnitario>
+                        <dte:Precio>250.0000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>250.0000</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.0000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>250.0000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="2" BienOServicio="B">
+                        <dte:Cantidad>10</dte:Cantidad>
+                        <dte:Descripcion>TETRACICLINA 500 MG THERFAM X 100 CAPSULAS
+                            *</dte:Descripcion>
+                        <dte:PrecioUnitario>38.2500</dte:PrecioUnitario>
+                        <dte:Precio>382.5000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>382.5000</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.0000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>382.5000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="3" BienOServicio="B">
+                        <dte:Cantidad>5</dte:Cantidad>
+                        <dte:Descripcion>AMOXICILINA 500 MG CAPLIN X 100 CAPSULAS
+                            *</dte:Descripcion>
+                        <dte:PrecioUnitario>30.0000</dte:PrecioUnitario>
+                        <dte:Precio>150.0000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>150.0000</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.0000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>150.0000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="4" BienOServicio="B">
+                        <dte:Cantidad>10</dte:Cantidad>
+                        <dte:Descripcion>CIPROFLOXACINA 500 MG CAPLIN TABLETAS *</dte:Descripcion>
+                        <dte:PrecioUnitario>41.5000</dte:PrecioUnitario>
+                        <dte:Precio>415.0000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>415.0000</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.0000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>415.0000</dte:Total>
+                    </dte:Item>
+                </dte:Items>
+                <dte:Totales>
+                    <dte:TotalImpuestos>
+                        <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0.0000"/>
+                    </dte:TotalImpuestos>
+                    <dte:GranTotal>1197.5000</dte:GranTotal>
+                </dte:Totales>
+                <dte:Complementos>
+                    <dte:Complemento NombreComplemento="AbonosFacturaCambiaria"
+                        URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0">
+                        <cfc:AbonosFacturaCambiaria
+                            xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0 GT_Complemento_Cambiaria-0.1.0.xsd"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1"
+                            xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0">
+                            <cfc:Abono>
+                                <cfc:NumeroAbono>1</cfc:NumeroAbono>
+                                <cfc:FechaVencimiento>2019-10-06</cfc:FechaVencimiento>
+                                <cfc:MontoAbono>1197.50</cfc:MontoAbono>
+                            </cfc:Abono>
+                        </cfc:AbonosFacturaCambiaria>
+                    </dte:Complemento>
+                </dte:Complementos>
+            </dte:DatosEmision>
+        </dte:DTE>
+        <dte:Adenda>
+            <CamposAdionales xmlns="Schema-ediFactura">
+                <EncabezadoAdicional>
+                    <NotasDePie>
+                        <Nota>TOTAL EN LETRAS : </Nota>
+                        <Nota>Mil ciento Noventa y Siete con 50/100</Nota>
+                        <Nota>Factura Incluye Medicamentos Genericos exentos de IVA Según DecretoNo:
+                            16-2003</Nota>
+                        <Nota>SUJETO A PAGOS TRIMESTRALES (NO EFECTUAR RETENCION)</Nota>
+                    </NotasDePie>
+                </EncabezadoAdicional>
+            </CamposAdionales>
+        </dte:Adenda>
+    </dte:SAT>
+</dte:GTDocumento>

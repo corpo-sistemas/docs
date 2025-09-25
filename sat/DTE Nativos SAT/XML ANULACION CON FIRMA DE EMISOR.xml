@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dte:GTAnulacionDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1"
+    xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.1.0 GT_AnulacionDocumento-0.1.0.xsd">
+    <dte:SAT>
+        <dte:AnulacionDTE ID="DatosCertificados">
+            <dte:DatosGenerales FechaEmisionDocumentoAnular="2019-02-12T17:26:37.3282313-06:00"
+                FechaHoraAnulacion="2019-02-12T17:28:37.3282313-06:00" ID="DatosAnulacion"
+                IDReceptor="58831851" MotivoAnulacion="Prueba Anulacion Fel"
+                NITEmisor="800000001026"
+                NumeroDocumentoAAnular="3378024D-B91A-42E9-AF8A-EEEF8C96982F"/>
+        </dte:AnulacionDTE>
+    </dte:SAT>
+    <ds:Signature Id="xmldsig-4268190f-f298-48ba-ae41-e6bede505cdb">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="#DatosAnulacion">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                    />
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>aVwpy2Q+eOqa2Y07XshnJyXXXTQKPfQdhmneUt6HJBw=</ds:DigestValue>
+            </ds:Reference>
+            <ds:Reference Type="http://uri.etsi.org/01903#SignedProperties"
+                URI="#xmldsig-4268190f-f298-48ba-ae41-e6bede505cdb-signedprops">
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>Hqr5/CNUK89ZK8gi/gJ9QHyfibpuAId4XtTV11V0q9Q=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>hCTfhUPhJGcraS1AAZnVm2v+Cmid0RQsCYCOK1jIifrApL+yY+lSmcMMElCGwpA8JMMTBy+oybzY7NliyAjWnnfhIfEaYANGJbpsX+M7XSd94YRCcrLpoCfjazUBZzH9nMmeo8B2DhOSknkjs7llj9wnpz4JRF2lhpxN/Q/Cy3mQ/F93Ozgj9xCN/R2Z56M3qh1rbYHghW0GI9XJe2g2V9V+4NOcM1hCQSjsN1/ugjoM9d8NIDcaIAgJ65Yo5uYd9LSkdPns3lO6G66cYikAsf9/wXy37Y4TRyD2yZ8TAXXEnPvRVhNI8NDHz+mDhVVTNdE4BxODWYIQ+8u+3K36ZQ==</ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>MIIDSTCCAjGgAwIBAgIIRGs1MLJucMowDQYJKoZIhvcNAQELBQAwLDELMAkGA1UEAwwCQ0ExEDAOBgNVBAoMB1NBVCBERVYxCzAJBgNVBAYTAkdUMB4XDTE4MTEwNjIyMzkzMFoXDTIwMTEwNTIyMzkzMFowJjEPMA0GA1UEAwwGMzMyOTE3MRMwEQYDVQQKDApzYXQuZ29iLmd0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiikZMe8MZsb0dKvDiB9SSD58PxVKSEUrgcRzXf9syaqP+AErK+4zNxMS41W0TLRP/fT+fMycjakRwLHaM4Jnej8Zeeb+ULj1AeE0zIe2Fa2LJtgxZeGnzjGq5elgZ8DteLqrXL2jdHuxJ2GEkI72g/J7DbLbrAdMHg7tzdXG1tVV2wQXpUFsOCeHfXj9WneIid30encZlMhGfTL8LH58wbcoMsAgUJEfYNzqmOaF1hrpwdXu9uMq8jE5V1lU6w+p/F7kNLROOckJMB9qGEoaprS8s3UixpqpDsGe8/Wodncaq6SWvgA1twXp+TMDTZ0xtbjPj/zv2JR+kKaVP+6sEwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFC3WrcvHp+im/ZTxN0wt3UXBIoayMBMGA1UdJQQMMAoGCCsGAQUFBwMBMB0GA1UdDgQWBBRUGzXIPddwtyBwNT1FV3uwDSDhyTAOBgNVHQ8BAf8EBAMCBaAwDQYJKoZIhvcNAQELBQADggEBAIhxhpNUtMiQh28pVFwrhTqxwlgUShJzVw2OqY5sUsTIMs5i4uH3HZkdmbbQNfgog0U4GKs82DIWwNeC6EgmwQjSUBjRw1U3IFczC3whSRJD6CX7dzCdmK0ZBkVV3XMHzEoS2/51mACkvDPhzZoLRCTMcxiyqW9ddGyW0rL0k/acCPzBFuu/UQGapYyrP0W8RB/gInbN25Kf2xga2hVOIDKViK7mKUmSl9CjFjZww24MFNIrXsmhKLZJXYBc5pHXUEUU10E/uIEP8glVJNTdMQCttGvq2mVowoNCMqxUKkqq61A3sZ0JqJz9sihhWlb4JWV+u4qNUJPFhwJfk0Jea/c=</ds:X509Certificate>
+                <ds:X509SubjectName>O=sat.gob.gt, CN=332917</ds:X509SubjectName>
+                <ds:X509IssuerSerial>
+                    <ds:X509IssuerName>C=GT, O=SAT DEV, CN=CA</ds:X509IssuerName>
+                    <ds:X509SerialNumber>808807236</ds:X509SerialNumber>
+                </ds:X509IssuerSerial>
+            </ds:X509Data>
+        </ds:KeyInfo>
+        <ds:Object>
+            <xades:QualifyingProperties Target="xmldsig-4268190f-f298-48ba-ae41-e6bede505cdb"
+                xmlns:xades="http://uri.etsi.org/01903/v1.3.2#">
+                <xades:SignedProperties
+                    Id="xmldsig-4268190f-f298-48ba-ae41-e6bede505cdb-signedprops">
+                    <xades:SignedSignatureProperties>
+                        <xades:SigningTime>2019-02-12T17:29:12.812-6</xades:SigningTime>
+                        <xades:SigningCertificate>
+                            <xades:Cert>
+                                <xades:CertDigest>
+                                    <ds:DigestMethod
+                                        Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                                    <ds:DigestValue>7f/b7DBiILfcRavHkcu3tMZJk/sdxhhxAd+lAAA4m3s=</ds:DigestValue>
+                                </xades:CertDigest>
+                                <xades:IssuerSerial>
+                                    <ds:X509IssuerName>C=GT, O=SAT DEV, CN=CA</ds:X509IssuerName>
+                                    <ds:X509SerialNumber>808807236</ds:X509SerialNumber>
+                                </xades:IssuerSerial>
+                            </xades:Cert>
+                        </xades:SigningCertificate>
+                    </xades:SignedSignatureProperties>
+                </xades:SignedProperties>
+            </xades:QualifyingProperties>
+        </ds:Object>
+    </ds:Signature>
+</dte:GTAnulacionDocumento>

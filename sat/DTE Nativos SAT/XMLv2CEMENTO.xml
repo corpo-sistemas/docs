@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0" xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1" xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales Tipo="FACT" FechaHoraEmision="2020-07-04T16:51:24" CodigoMoneda="GTQ" />
+				<dte:Emisor NITEmisor="800000001026" NombreEmisor="TALLER DE ZAPATERIA ALLAN ROSS" CodigoEstablecimiento="1" NombreComercial="Establecimiento1" AfiliacionIVA="GEN">
+					<dte:DireccionEmisor>
+						<dte:Direccion>04 AVE. LTE. 157 COL. STA. MARTA 00-000   ZONA 19 </dte:Direccion>
+						<dte:CodigoPostal>01000</dte:CodigoPostal>
+						<dte:Municipio>GUATEMALA</dte:Municipio>
+						<dte:Departamento>GUATEMALA</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor IDReceptor="19" NombreReceptor="JULIO EDMUNDO MOLINA AVILES">
+					<dte:DireccionReceptor>
+						<dte:Direccion>Ciudad de Guatemala</dte:Direccion>
+						<dte:CodigoPostal>01005</dte:CodigoPostal>
+						<dte:Municipio>.</dte:Municipio>
+						<dte:Departamento>.</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase TipoFrase="1" CodigoEscenario="1" />
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item NumeroLinea="1" BienOServicio="B">
+						<dte:Cantidad>25.00</dte:Cantidad>
+						<dte:UnidadMedida>UNI</dte:UnidadMedida>
+						<dte:Descripcion>Bolsa Cemento 42.5kg</dte:Descripcion>
+						<dte:PrecioUnitario>45.00</dte:PrecioUnitario>
+						<dte:Precio>1125.00</dte:Precio>
+						<dte:Descuento>0</dte:Descuento>
+						<dte:Impuestos>
+							<dte:Impuesto>
+								<dte:NombreCorto>IVA</dte:NombreCorto>
+								<dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+								<dte:MontoGravable>1004.46</dte:MontoGravable>
+								<dte:MontoImpuesto>120.54</dte:MontoImpuesto>
+							</dte:Impuesto>						
+							<dte:Impuesto>
+								<dte:NombreCorto>CEMENTO</dte:NombreCorto>
+								<dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+								<dte:CantidadUnidadesGravables>25</dte:CantidadUnidadesGravables>								
+								<dte:MontoImpuesto>37.50</dte:MontoImpuesto>
+							</dte:Impuesto>
+						</dte:Impuestos>
+						<dte:Total>1162.50</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:TotalImpuestos>
+						<dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="120.54" />
+						<dte:TotalImpuesto NombreCorto="CEMENTO" TotalMontoImpuesto="37.50" />
+					</dte:TotalImpuestos>
+					<dte:GranTotal>1162.50</dte:GranTotal>
+				</dte:Totales>
+			</dte:DatosEmision>
+		</dte:DTE>
+	</dte:SAT>
+</dte:GTDocumento>

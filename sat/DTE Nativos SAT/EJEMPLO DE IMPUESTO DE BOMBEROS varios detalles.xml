@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1"
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+    <dte:SAT ClaseDocumento="dte">
+        <dte:DTE ID="DatosCertificados">
+            <dte:DatosEmision ID="DatosEmision">
+                <dte:DatosGenerales Tipo="FACT" FechaHoraEmision="2020-01-20T18:42:11"
+                    CodigoMoneda="GTQ"/>
+                <dte:Emisor NITEmisor="800000001026" NombreEmisor="TALLER DE ZAPATERIA ALLAN ROSS"
+                    CodigoEstablecimiento="1" NombreComercial="Establecimiento1" AfiliacionIVA="GEN">
+                    <dte:DireccionEmisor>
+                        <dte:Direccion>04 AVE. LTE. 157 COL. STA. MARTA 00-000 ZONA 19 </dte:Direccion>
+                        <dte:CodigoPostal>01000</dte:CodigoPostal>
+                        <dte:Municipio>GUATEMALA</dte:Municipio>
+                        <dte:Departamento>Guatemala</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionEmisor>
+                </dte:Emisor>
+                <dte:Receptor IDReceptor="108151654" NombreReceptor="Corpositemas SOCIEDAD ANONIMA">
+                    <dte:DireccionReceptor>
+                        <dte:Direccion>AVENIDA PETAPA, , 42-51, , Zona: 12,</dte:Direccion>
+                        <dte:CodigoPostal>01005</dte:CodigoPostal>
+                        <dte:Municipio>.</dte:Municipio>
+                        <dte:Departamento>.</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionReceptor>
+                </dte:Receptor>
+                <dte:Frases>
+                    <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+                    <dte:Frase TipoFrase="1" CodigoEscenario="4"/>
+                </dte:Frases>
+                <dte:Items>
+                    <dte:Item NumeroLinea="1" BienOServicio="B">
+                        <dte:Cantidad>1.00000000</dte:Cantidad>
+                        <dte:UnidadMedida>UNI</dte:UnidadMedida>
+                        <dte:Descripcion>PRIMA NO AFECTA</dte:Descripcion>
+                        <dte:PrecioUnitario>933.3296</dte:PrecioUnitario>
+                        <dte:Precio>933.329600</dte:Precio>
+                        <dte:Descuento>0</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>833.33000</dte:MontoGravable>
+                                <dte:MontoImpuesto>99.99960</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>933.33</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="2" BienOServicio="B">
+                        <dte:Cantidad>1.00000000</dte:Cantidad>
+                        <dte:UnidadMedida>UNI</dte:UnidadMedida>
+                        <dte:Descripcion>PRIMA AFECTA IFB</dte:Descripcion>
+                        <dte:PrecioUnitario>1824.704</dte:PrecioUnitario>
+                        <dte:Precio>1824.704000</dte:Precio>
+                        <dte:Descuento>0</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>BOMBEROS</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>1629.20000</dte:MontoGravable>
+                                <dte:MontoImpuesto>32.58400</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>1629.20000</dte:MontoGravable>
+                                <dte:MontoImpuesto>195.50400</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>1857.29</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="3" BienOServicio="B">
+                        <dte:Cantidad>1.00000000</dte:Cantidad>
+                        <dte:UnidadMedida>UNI</dte:UnidadMedida>
+                        <dte:Descripcion>OTROS GASTOS</dte:Descripcion>
+                        <dte:PrecioUnitario>216.2384</dte:PrecioUnitario>
+                        <dte:Precio>216.238400</dte:Precio>
+                        <dte:Descuento>0</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>193.07000</dte:MontoGravable>
+                                <dte:MontoImpuesto>23.16840</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>216.24</dte:Total>
+                    </dte:Item>
+                </dte:Items>
+                <dte:Totales>
+                    <dte:TotalImpuestos>
+                        <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="318.672000"/>
+                        <dte:TotalImpuesto NombreCorto="BOMBEROS" TotalMontoImpuesto="32.584000"/>
+                    </dte:TotalImpuestos>
+                    <dte:GranTotal>3006.86</dte:GranTotal>
+                </dte:Totales>
+            </dte:DatosEmision>
+        </dte:DTE>
+    </dte:SAT>
+</dte:GTDocumento>

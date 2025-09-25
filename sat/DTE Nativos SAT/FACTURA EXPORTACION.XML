@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1"
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+    <dte:SAT ClaseDocumento="dte">
+        <dte:DTE ID="DatosCertificados">
+            <dte:DatosEmision ID="DatosEmision">
+                <dte:DatosGenerales Tipo="FACT" Exp="SI" FechaHoraEmision="2019-05-07T10:49:44"
+                    CodigoMoneda="USD"/>
+                <dte:Emisor NITEmisor="108151654"
+                    NombreEmisor="Corposistemas"
+                    CodigoEstablecimiento="1" NombreComercial="Corposistemas"
+                    AfiliacionIVA="GEN">
+                    <dte:DireccionEmisor>
+                        <dte:Direccion>15 CALLE 1-nov 10 EDIFICIO TERRA ESPERANZA, 3ER NIVEL,
+                            OFICINAS 301</dte:Direccion>
+                        <dte:CodigoPostal>01000</dte:CodigoPostal>
+                        <dte:Municipio>100105</dte:Municipio>
+                        <dte:Departamento>1001</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionEmisor>
+                </dte:Emisor>
+                <dte:Receptor IDReceptor="CF" NombreReceptor="NIPRO MEDICAL CORP. SUCURSAL HONDURAS">
+                    <dte:DireccionReceptor>
+                        <dte:Direccion>COLONIA SAN MIGUEL ANILLO TEGUCIGALPA Francisco
+                            Morazán</dte:Direccion>
+                        <dte:CodigoPostal>08036</dte:CodigoPostal>
+                        <dte:Municipio>BARCELONA</dte:Municipio>
+                        <dte:Departamento>ESPAÑA</dte:Departamento>
+                        <dte:Pais>ES</dte:Pais>
+                    </dte:DireccionReceptor>
+                </dte:Receptor>
+                <dte:Frases>
+                    <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+                    <dte:Frase TipoFrase="4" CodigoEscenario="1"/>
+                </dte:Frases>
+                <dte:Items>
+                    <dte:Item NumeroLinea="1" BienOServicio="B">
+                        <dte:Cantidad>96000</dte:Cantidad>
+                        <dte:UnidadMedida>SAC</dte:UnidadMedida>
+                        <dte:Descripcion> NIPRO ALCOHOL PREP PADS Serie/Lote N°:171015;
+                            Cantidad:96,000 UN; Fecha Exp:31/10/2022</dte:Descripcion>
+                        <dte:PrecioUnitario>0.009</dte:PrecioUnitario>
+                        <dte:Precio>864.00</dte:Precio>
+                        <dte:Descuento>0</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>864.00</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.00</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>864.00</dte:Total>
+                    </dte:Item>
+                </dte:Items>
+                <dte:Totales>
+                    <dte:TotalImpuestos>
+                        <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0"/>
+                    </dte:TotalImpuestos>
+                    <dte:GranTotal>864.00</dte:GranTotal>
+                </dte:Totales>
+                <dte:Complementos>
+                    <dte:Complemento NombreComplemento="Exportación"
+                        URIComplemento="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0">
+                        <cex:Exportacion
+                            xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            xsi:schemaLocation="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0 file:/C:/Users/William/Documents/PROYECTOS/FACE2/XSD/GT_Complemento_Exportaciones-0.1.0.xsd"
+                            Version="1">
+                            <cex:NombreConsignatarioODestinatario>NIPRO MEDICAL CORP. SUCURSAL
+                                HONDURAS</cex:NombreConsignatarioODestinatario>
+                            <cex:DireccionConsignatarioODestinatario>COLONIA SAN MIGUEL ANILLO
+                                TEGUCIGALPA Francisco
+                                Morazá</cex:DireccionConsignatarioODestinatario>
+                            <cex:INCOTERM>FOB</cex:INCOTERM>
+                        </cex:Exportacion>
+                    </dte:Complemento>
+                </dte:Complementos>
+            </dte:DatosEmision>            
+        </dte:DTE>
+        <dte:Adenda>
+            <CamposAdionales xmlns="Schema-ediFactura">
+                <EncabezadoAdicional>
+                    <NotasDePie>
+                        <Nota>703353250</Nota>
+                        <Nota>88101491453</Nota>
+                        <Nota>5971548715</Nota>
+                        <Nota>04/07/2018</Nota>
+                        <Nota>MIA</Nota>
+                        <Nota>GUA</Nota>
+                        <Nota>RSV</Nota>
+                        <Nota>285</Nota>
+                        <Nota>KG</Nota>
+                        <Nota>SPARE PARTS</Nota>
+                        <Nota>.</Nota>
+                        <Nota>.</Nota>
+                        <Nota>TELEFONO PBX: 2423-9898</Nota>
+                        <Nota>0</Nota>
+                        <Nota>.</Nota>
+                        <Nota>88101491453</Nota>
+                        <Nota>FE6-05620</Nota>
+                        <Nota>GCF3YWS</Nota>
+                        <Nota>.</Nota>
+                        <Nota>.</Nota>
+                        <Nota>Cincuenta quetzales con cero centavos</Nota>
+                    </NotasDePie>
+                </EncabezadoAdicional>
+                <DetallesAdicional>
+                    <DetalleAdicional>
+                        <InformacionAdicional>98</InformacionAdicional>
+                        <InformacionAdicional>.</InformacionAdicional>
+                    </DetalleAdicional>
+                </DetallesAdicional>
+            </CamposAdionales>
+            <ttNombreArchivo>
+                <Dato1>Dato1</Dato1>
+                <Dato2>Dato2</Dato2>
+                <Dato3>Dato3</Dato3>
+                <Dato4>Dato4</Dato4>
+            </ttNombreArchivo>
+        </dte:Adenda>
+    </dte:SAT>    
+</dte:GTDocumento>

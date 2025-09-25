@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1"
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+    <dte:SAT ClaseDocumento="dte">
+        <dte:DTE ID="DatosCertificados">
+            <dte:DatosEmision ID="DatosEmision">
+                <dte:DatosGenerales Tipo="FACT" FechaHoraEmision="2020-01-07T00:00:00"
+                    NumeroAcceso="100000064" CodigoMoneda="GTQ"/>
+                <dte:Emisor NITEmisor="108151654" NombreEmisor="Emisor, S.A."
+                    CodigoEstablecimiento="1" NombreComercial="Emisor, S.A."
+                    CorreoEmisor="me@org.com" AfiliacionIVA="GEN">
+                    <dte:DireccionEmisor>
+                        <dte:Direccion>3A AVENIDA 6-68</dte:Direccion>
+                        <dte:CodigoPostal>01011</dte:CodigoPostal>
+                        <dte:Municipio>GUATEMALA</dte:Municipio>
+                        <dte:Departamento>GUATEMALA</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionEmisor>
+                </dte:Emisor>
+                <dte:Receptor IDReceptor="CF" NombreReceptor="MARCOS MARROQUIN CALEL"
+                    CorreoReceptor="">
+                    <dte:DireccionReceptor>
+                        <dte:Direccion>CIUDAD</dte:Direccion>
+                        <dte:CodigoPostal>01011</dte:CodigoPostal>
+                        <dte:Municipio>GUATEMALA</dte:Municipio>
+                        <dte:Departamento>GUATEMALA</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionReceptor>
+                </dte:Receptor>
+                <dte:Frases>
+                    <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+                </dte:Frases>
+                <dte:Items>
+                    <dte:Item NumeroLinea="1" BienOServicio="B">
+                        <dte:Cantidad>1.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>ARMELLA CERRADA CROMADA (CHINA) NO. 6.- (
+                            9.25)</dte:Descripcion>
+                        <dte:PrecioUnitario>9.250000</dte:PrecioUnitario>
+                        <dte:Precio>9.25000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>8.258929</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.991071</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>9.25000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="2" BienOServicio="B">
+                        <dte:Cantidad>1.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>ARMELLA CERRADA CROMADA (CHINA) NO. 10.- (
+                            19.50)</dte:Descripcion>
+                        <dte:PrecioUnitario>19.500000</dte:PrecioUnitario>
+                        <dte:Precio>19.50000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>17.410714</dte:MontoGravable>
+                                <dte:MontoImpuesto>2.089286</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>19.50000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="3" BienOServicio="B">
+                        <dte:Cantidad>1.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>ARMELLA CERRADA CROMADA (CHINA) NO. 12.- (
+                            25.00)</dte:Descripcion>
+                        <dte:PrecioUnitario>25.000000</dte:PrecioUnitario>
+                        <dte:Precio>25.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>22.321429</dte:MontoGravable>
+                                <dte:MontoImpuesto>2.678571</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>25.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="4" BienOServicio="B">
+                        <dte:Cantidad>1.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>ARMELLA CERRADA CROMADA (CHINA) NO. 16 '.- (
+                            50.00)</dte:Descripcion>
+                        <dte:PrecioUnitario>50.000000</dte:PrecioUnitario>
+                        <dte:Precio>50.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>44.642857</dte:MontoGravable>
+                                <dte:MontoImpuesto>5.357143</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>50.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="5" BienOServicio="B">
+                        <dte:Cantidad>1.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>ARMELLA CERRADA CROMADA (CHINA) NO. 20 '.- (
+                            75.00)</dte:Descripcion>
+                        <dte:PrecioUnitario>75.000000</dte:PrecioUnitario>
+                        <dte:Precio>75.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>66.964286</dte:MontoGravable>
+                                <dte:MontoImpuesto>8.035714</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>75.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="6" BienOServicio="B">
+                        <dte:Cantidad>6.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>ARCO PARA SIERRA (CHINO) NEGRO SIN SIERRA.- (
+                            10.00)</dte:Descripcion>
+                        <dte:PrecioUnitario>10.000000</dte:PrecioUnitario>
+                        <dte:Precio>60.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>53.571429</dte:MontoGravable>
+                                <dte:MontoImpuesto>6.428571</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>60.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="7" BienOServicio="B">
+                        <dte:Cantidad>12.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>BROCA PARA MADERA PRIMERA CALIDAD DE 1/2' (
+                            8.50)</dte:Descripcion>
+                        <dte:PrecioUnitario>8.500000</dte:PrecioUnitario>
+                        <dte:Precio>102.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>91.071429</dte:MontoGravable>
+                                <dte:MontoImpuesto>10.928571</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>102.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="8" BienOServicio="B">
+                        <dte:Cantidad>6.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>DESARMADOR 'MACHETE SPAN' DE 1/4 X 10' PLANO (
+                            6.75)</dte:Descripcion>
+                        <dte:PrecioUnitario>6.750000</dte:PrecioUnitario>
+                        <dte:Precio>40.50000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>36.160714</dte:MontoGravable>
+                                <dte:MontoImpuesto>4.339286</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>40.50000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="9" BienOServicio="B">
+                        <dte:Cantidad>12.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>DESARMADOR 'MACHETE SPAN' DE 3/8 X 10' PLANO (
+                            10.50)</dte:Descripcion>
+                        <dte:PrecioUnitario>10.500000</dte:PrecioUnitario>
+                        <dte:Precio>126.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>112.500000</dte:MontoGravable>
+                                <dte:MontoImpuesto>13.500000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>126.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="10" BienOServicio="B">
+                        <dte:Cantidad>6.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>DESARMADOR 'MACHETE SPAN' DE 3/8 X 12' PLANO (
+                            11.75)</dte:Descripcion>
+                        <dte:PrecioUnitario>11.750000</dte:PrecioUnitario>
+                        <dte:Precio>70.50000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>62.946429</dte:MontoGravable>
+                                <dte:MontoImpuesto>7.553571</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>70.50000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="11" BienOServicio="B">
+                        <dte:Cantidad>6.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>DESARMADOR 'MACHETE SPAN' DE 1/4 X 10 PHILLIPS (
+                            7.00)</dte:Descripcion>
+                        <dte:PrecioUnitario>7.000000</dte:PrecioUnitario>
+                        <dte:Precio>42.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>37.500000</dte:MontoGravable>
+                                <dte:MontoImpuesto>4.500000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>42.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="12" BienOServicio="B">
+                        <dte:Cantidad>12.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>HILO NYLON (CHINO) NO. 80.- ( 7.25)</dte:Descripcion>
+                        <dte:PrecioUnitario>7.250000</dte:PrecioUnitario>
+                        <dte:Precio>87.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>77.678571</dte:MontoGravable>
+                                <dte:MontoImpuesto>9.321429</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>87.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="13" BienOServicio="B">
+                        <dte:Cantidad>6.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>JUEGO DE LLAVES BLISTER NEGRO DE 8 A 19 DE 8 PZS. (
+                            25.00)</dte:Descripcion>
+                        <dte:PrecioUnitario>25.000000</dte:PrecioUnitario>
+                        <dte:Precio>150.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>133.928571</dte:MontoGravable>
+                                <dte:MontoImpuesto>16.071429</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>150.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="14" BienOServicio="B">
+                        <dte:Cantidad>6.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>JUEGO DE LLAVES BLISTER NEGRO DE 8 A 22 DE 9 PZS. (
+                            35.00)</dte:Descripcion>
+                        <dte:PrecioUnitario>35.000000</dte:PrecioUnitario>
+                        <dte:Precio>210.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>187.500000</dte:MontoGravable>
+                                <dte:MontoImpuesto>22.500000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>210.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="15" BienOServicio="B">
+                        <dte:Cantidad>6.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>METRO 'MACHETE GARZA' DE 10 MTS.- (
+                            18.50)</dte:Descripcion>
+                        <dte:PrecioUnitario>18.500000</dte:PrecioUnitario>
+                        <dte:Precio>111.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>99.107143</dte:MontoGravable>
+                                <dte:MontoImpuesto>11.892857</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>111.00000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="16" BienOServicio="B">
+                        <dte:Cantidad>6.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>MARTILLO 'MACHETE SPAN' TUBULAR DE 16 ONZ (
+                            21.75)</dte:Descripcion>
+                        <dte:PrecioUnitario>21.750000</dte:PrecioUnitario>
+                        <dte:Precio>130.50000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>116.517857</dte:MontoGravable>
+                                <dte:MontoImpuesto>13.982143</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>130.50000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="17" BienOServicio="B">
+                        <dte:Cantidad>20.00000</dte:Cantidad>
+                        <dte:UnidadMedida>UNO</dte:UnidadMedida>
+                        <dte:Descripcion>RUEDA DE HULE PARA TROQUE DE 4'.- ( 7.00)</dte:Descripcion>
+                        <dte:PrecioUnitario>7.000000</dte:PrecioUnitario>
+                        <dte:Precio>140.00000</dte:Precio>
+                        <dte:Descuento>0.00</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>125.000000</dte:MontoGravable>
+                                <dte:MontoImpuesto>15.000000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>140.00000</dte:Total>
+                    </dte:Item>
+                </dte:Items>
+                <dte:Totales>
+                    <dte:TotalImpuestos>
+                        <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="155.169643"/>
+                    </dte:TotalImpuestos>
+                    <dte:GranTotal>1448.25000</dte:GranTotal>
+                </dte:Totales>
+            </dte:DatosEmision>
+            <dte:Certificacion>
+                <dte:NITCertificador>108151654</dte:NITCertificador>
+                <dte:NombreCertificador>Corposistemas, S. A.</dte:NombreCertificador>
+                <dte:NumeroAutorizacion Serie="F0F3C64C" Numero="3239068723"
+                    >F0F3C64C-C110-4433-9D9F-0022053E450A</dte:NumeroAutorizacion>
+                <dte:FechaHoraCertificacion>2020-01-07T13:09:54</dte:FechaHoraCertificacion>
+            </dte:Certificacion>
+        </dte:DTE>
+    </dte:SAT>    
+</dte:GTDocumento>

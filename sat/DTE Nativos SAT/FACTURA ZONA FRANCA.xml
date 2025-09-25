@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1"
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+    <dte:SAT ClaseDocumento="dte">
+        <dte:DTE ID="DatosCertificados">
+            <dte:DatosEmision ID="DatosEmision">
+                <dte:DatosGenerales Tipo="FACT" FechaHoraEmision="2019-08-22T10:49:44"
+                    CodigoMoneda="GTQ"/>
+                <dte:Emisor NITEmisor="8508437"
+                    NombreEmisor="GTM GUATEMALA COMERCIO DE PRODUCTOS QUÍMICOS,  SOCIEDAD ANÓNIMA"
+                    CodigoEstablecimiento="1" NombreComercial="GTM GUATEMALA" AfiliacionIVA="GEN">
+                    <dte:DireccionEmisor>
+                        <dte:Direccion>CALZADA AGUILAR BATRES EMPRESARIALES MONTE MARIA OFI.301 45-54 ZONA 11 </dte:Direccion>
+                        <dte:CodigoPostal>01000</dte:CodigoPostal>
+                        <dte:Municipio>100105</dte:Municipio>
+                        <dte:Departamento>1001</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionEmisor>
+                </dte:Emisor>
+                <dte:Receptor IDReceptor="18281753" NombreReceptor="PONCE,HINESTROZA,,JULIO,RODRIGO">
+                    <dte:DireccionReceptor>
+                        <dte:Direccion>CIUDAD</dte:Direccion>
+                        <dte:CodigoPostal>08036</dte:CodigoPostal>
+                        <dte:Municipio>BARCELONA</dte:Municipio>
+                        <dte:Departamento>ESPAÑA</dte:Departamento>
+                        <dte:Pais>ES</dte:Pais>
+                    </dte:DireccionReceptor>
+                </dte:Receptor>
+                <dte:Frases>
+                    <dte:Frase TipoFrase="1" CodigoEscenario="1"/>
+                    <dte:Frase TipoFrase="4" CodigoEscenario="12"/>
+                </dte:Frases>
+                <dte:Items>
+                    <dte:Item NumeroLinea="1" BienOServicio="B">
+                        <dte:Cantidad>96000</dte:Cantidad>
+                        <dte:UnidadMedida>SAC</dte:UnidadMedida>
+                        <dte:Descripcion> NIPRO ALCOHOL PREP PADS Serie/Lote N°:171015;
+                            Cantidad:96,000 UN; Fecha Exp:31/10/2022</dte:Descripcion>
+                        <dte:PrecioUnitario>0.009</dte:PrecioUnitario>
+                        <dte:Precio>864.00</dte:Precio>
+                        <dte:Descuento>0</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>864.00</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.00</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>864.00</dte:Total>
+                    </dte:Item>
+                </dte:Items>
+                <dte:Totales>
+                    <dte:TotalImpuestos>
+                        <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0"/>
+                    </dte:TotalImpuestos>
+                    <dte:GranTotal>864.00</dte:GranTotal>
+                </dte:Totales>
+            </dte:DatosEmision>
+        </dte:DTE>
+        <dte:Adenda>
+            <CamposAdionales>
+                <EncabezadoAdicional>
+                    <NotasDePie>
+                        <Nota>703353250</Nota>
+                        <Nota>88101491453</Nota>
+                        <Nota>5971548715</Nota>
+                        <Nota>04/07/2018</Nota>
+                        <Nota>MIA</Nota>
+                        <Nota>GUA</Nota>
+                        <Nota>RSV</Nota>
+                        <Nota>285</Nota>
+                        <Nota>KG</Nota>
+                        <Nota>SPARE PARTS</Nota>
+                        <Nota>.</Nota>
+                        <Nota>.</Nota>
+                        <Nota>TELEFONO PBX: 2423-9898</Nota>
+                        <Nota>0</Nota>
+                        <Nota>.</Nota>
+                        <Nota>88101491453</Nota>
+                        <Nota>FE6-05620</Nota>
+                        <Nota>GCF3YWS</Nota>
+                        <Nota>.</Nota>
+                        <Nota>.</Nota>
+                        <Nota>Cincuenta quetzales con cero centavos</Nota>
+                    </NotasDePie>
+                </EncabezadoAdicional>
+                <DetallesAdicional>
+                    <DetalleAdicional>
+                        <InformacionAdicional>98</InformacionAdicional>
+                        <InformacionAdicional>.</InformacionAdicional>
+                    </DetalleAdicional>
+                </DetallesAdicional>
+            </CamposAdionales>
+        </dte:Adenda>
+    </dte:SAT>
+</dte:GTDocumento>
