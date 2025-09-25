@@ -1,4 +1,4 @@
-SAT
+# SAT
 
 Esta sección contiene documentos oficiales y guías técnicas relacionadas con el Régimen de Factura Electrónica en Línea (FEL) emitido por la Superintendencia de Administración Tributaria (SAT) de Guatemala.
 
