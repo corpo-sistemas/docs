@@ -56,7 +56,6 @@
 			<CorreoElectronico xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="Schema-ediFactura">
 				<Adjuntos>XML PDF</Adjuntos>
 				<Para>A</Para>
-				<De>postmaster@corposistemasgt.com</De>
 				<Asunto>Envio de documento electrónico</Asunto>
 			</CorreoElectronico>
 			<dte:DetallesAdicional>
@@ -70,3 +69,4 @@
 		</dte:Adenda>
 	</dte:SAT>
 </dte:GTDocumento>
+
