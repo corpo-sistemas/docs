@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0" xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales Tipo="FPEQ" FechaHoraEmision="2018-12-14T00:00:00+01:00" CodigoMoneda="GTQ" NumeroAcceso="111222333"/>
+        <dte:Emisor NITEmisor="800000000011" NombreEmisor="UNITED PARCEL SERVICE, CO" CodigoEstablecimiento="1" NombreComercial="UNITED PARCEL SERVICE, CO" CorreoEmisor="email@email.com" AfiliacionIVA="PEQ">
+          <dte:DireccionEmisor>
+            <dte:Direccion>CALZADA ATANASIO TZUL, BODGTA 236-237 Zona 12 COMPLEJO EMPRESARIAL EL CORTIJO II</dte:Direccion>
+            <dte:CodigoPostal>01012</dte:CodigoPostal>
+            <dte:Municipio>GUATEMALA</dte:Municipio>
+            <dte:Departamento>GUATEMALA</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor IDReceptor="CF" NombreReceptor="ALARMAS DE GUATEMALA SOCIEDAD ANONIMA" CorreoReceptor="email@email.com">
+          <dte:DireccionReceptor>
+            <dte:Direccion>CALZADA ATANASIO TZUL, BODEGA 236-237 Zona 12 COMPLEJO EMPRESARIAL EL CORTIJO II</dte:Direccion>
+            <dte:CodigoPostal>01012</dte:CodigoPostal>
+            <dte:Municipio>GUATEMALA</dte:Municipio>
+            <dte:Departamento>GUATEMALA</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Frases>
+          <dte:Frase TipoFrase="3" CodigoEscenario="1"/>
+        </dte:Frases>
+        <dte:Items>
+          <dte:Item NumeroLinea="3" BienOServicio="B">
+            <dte:Cantidad>1</dte:Cantidad>
+            <dte:UnidadMedida>PZA</dte:UnidadMedida>
+            <dte:Descripcion>MENS 50% COTTON 50% POLYESTER S SLEEVE WITH BUTTON NOTCH
+                            TEE CREW NECK PLAYERA DE ALGODON PARA HOMBRE MARCA LB</dte:Descripcion>
+            <dte:PrecioUnitario>60.00</dte:PrecioUnitario>
+            <dte:Precio>60.00</dte:Precio>
+            <dte:Descuento>10.00</dte:Descuento>
+            <dte:Total>50.00</dte:Total>
+          </dte:Item>
+        </dte:Items>
+        <dte:Totales>
+          <dte:GranTotal>2500.00</dte:GranTotal>
+        </dte:Totales>
+      </dte:DatosEmision>
+    </dte:DTE>
+  </dte:SAT>
+</dte:GTDocumento>
