@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:crc="http://www.sat.gob.gt/face2/ComplementoReferenciaConstancia/0.1.0"
+    xmlns:cesp="http://www.sat.gob.gt/face2/ComplementoEspectaculos/0.1.0"
+    xmlns:ctrasmer="http://www.sat.gob.gt/face2/TrasladoMercancias/0.1.0"
+    xmlns:cexprov="http://www.sat.gob.gt/face2/ComplementoExportacionProvisional/0.1.0"
+    xmlns:clepp="http://www.sat.gob.gt/face2/ComplementoPartidosPolitico/0.1.0"
+    xmlns:cmep="http://www.sat.gob.gt/face2/ComplementoMediosDePago/0.1.0"
+    xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+    xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+    xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+    xmlns:cca="http://www.sat.gob.gt/face2/CobroXCuentaAjena/0.1.0"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:ctup="http://www.sat.gob.gt/face2/ComplementoTurismoPasaje/0.1.0"
+    xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" Version="0.1"
+    xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+    <dte:SAT ClaseDocumento="dte">
+        <dte:DTE ID="DatosCertificados">
+            <dte:DatosEmision ID="DatosEmision">
+                <dte:DatosGenerales Tipo="FACT" Exp="SI" FechaHoraEmision="2026-06-01T12:05:17" CodigoMoneda="USD" />
+                <dte:Emisor NITEmisor="800000001026" NombreEmisor="ESTABLECIMINETO DE PRUEBA" CodigoEstablecimiento="1" NombreComercial="CORPOSISTEMAS" AfiliacionIVA="GEN">
+                    <dte:DireccionEmisor>
+                        <dte:Direccion>15 AVENIDA 14-37   ZONA 10 COLONIA OAKLAND II</dte:Direccion>
+                        <dte:CodigoPostal>01000</dte:CodigoPostal>
+                        <dte:Municipio>GUATEMALA</dte:Municipio>
+                        <dte:Departamento>GUATEMALA</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionEmisor>
+                </dte:Emisor>
+                <dte:Receptor IDReceptor="132540801" TipoEspecial="EXT" NombreReceptor="Green label naturals LLC">
+                    <dte:DireccionReceptor>
+                        <dte:Direccion>1900 N Bayshore Dr, Ste 1A, Miami, FL, US</dte:Direccion>
+                        <dte:CodigoPostal>01005</dte:CodigoPostal>
+                        <dte:Municipio>.</dte:Municipio>
+                        <dte:Departamento>.</dte:Departamento>
+                        <dte:Pais>GT</dte:Pais>
+                    </dte:DireccionReceptor>
+                </dte:Receptor>
+                <dte:Frases>
+                    <dte:Frase TipoFrase="1" CodigoEscenario="1" />
+                    <dte:Frase TipoFrase="4" CodigoEscenario="1" />
+                </dte:Frases>
+                <dte:Items>
+                    <dte:Item NumeroLinea="1" BienOServicio="B">
+                        <dte:Cantidad>190.0000000000</dte:Cantidad>
+                        <dte:UnidadMedida>UN</dte:UnidadMedida>
+                        <dte:Descripcion>Vibbo Blends Chill Vibes 70g</dte:Descripcion>
+                        <dte:PrecioUnitario>5.53</dte:PrecioUnitario>
+                        <dte:Precio>1050.7000000000</dte:Precio>
+                        <dte:Descuento>0</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>1050.7000000000</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.000000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>1050.700000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="2" BienOServicio="B">
+                        <dte:Cantidad>190.0000000000</dte:Cantidad>
+                        <dte:UnidadMedida>UN</dte:UnidadMedida>
+                        <dte:Descripcion>Vibbo Blends Energy Focus Hydra Boost 70g</dte:Descripcion>
+                        <dte:PrecioUnitario>5.43</dte:PrecioUnitario>
+                        <dte:Precio>1031.7000000000</dte:Precio>
+                        <dte:Descuento>0</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>1031.7000000000</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.000000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>1031.700000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="3" BienOServicio="B">
+                        <dte:Cantidad>190.0000000000</dte:Cantidad>
+                        <dte:UnidadMedida>UN</dte:UnidadMedida>
+                        <dte:Descripcion>Vibbo Blends Digestive Gut Bliss 70g</dte:Descripcion>
+                        <dte:PrecioUnitario>5.85</dte:PrecioUnitario>
+                        <dte:Precio>1111.5000000000</dte:Precio>
+                        <dte:Descuento>0</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>1111.5000000000</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.000000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>1111.500000</dte:Total>
+                    </dte:Item>
+                    <dte:Item NumeroLinea="4" BienOServicio="B">
+                        <dte:Cantidad>5.0000000000</dte:Cantidad>
+                        <dte:UnidadMedida>UN</dte:UnidadMedida>
+                        <dte:Descripcion>Vibbo Reset bundle. 3 30g cannisters and 45 paper filters</dte:Descripcion>
+                        <dte:PrecioUnitario>20.54</dte:PrecioUnitario>
+                        <dte:Precio>102.7000000000</dte:Precio>
+                        <dte:Descuento>0</dte:Descuento>
+                        <dte:Impuestos>
+                            <dte:Impuesto>
+                                <dte:NombreCorto>IVA</dte:NombreCorto>
+                                <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+                                <dte:MontoGravable>102.7000000000</dte:MontoGravable>
+                                <dte:MontoImpuesto>0.000000</dte:MontoImpuesto>
+                            </dte:Impuesto>
+                        </dte:Impuestos>
+                        <dte:Total>102.700000</dte:Total>
+                    </dte:Item>
+                </dte:Items>
+                <dte:Totales>
+                    <dte:TotalImpuestos>
+                        <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0.000000" />
+                    </dte:TotalImpuestos>
+                    <dte:GranTotal>3296.600000</dte:GranTotal>
+                </dte:Totales>
+                <dte:Complementos>
+                    <dte:Complemento IDComplemento="Exportacion" NombreComplemento="Exportacion" URIComplemento="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0">
+                        <cex:Exportacion Version="1"
+                            xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0">
+                            <cex:LugarExpedicion>GUATEMALA </cex:LugarExpedicion>
+                            <cex:NombreConsignatarioODestinatario>Green Label Naturals LLC</cex:NombreConsignatarioODestinatario>
+                            <cex:DireccionConsignatarioODestinatario>1900 N Bayshore Dr, Ste 1A, Miami, FL, US</cex:DireccionConsignatarioODestinatario>
+                            <cex:CodigoConsignatarioODestinatario>DUNS132540801</cex:CodigoConsignatarioODestinatario>
+                            <cex:NombreComprador>Green Label Naturals LLC</cex:NombreComprador>
+                            <cex:DireccionComprador>1900 N Bayshore Dr, Ste 1A, Miami, FL, US</cex:DireccionComprador>
+                            <cex:CodigoComprador>DUNS 132540801</cex:CodigoComprador>
+                            <cex:PaisConsignatario>Estados Unidos </cex:PaisConsignatario>
+                            <cex:INCOTERM>DDP</cex:INCOTERM>
+                            <cex:NombreExportador>OCTAGONO, SOCIEDAD ANONIMA</cex:NombreExportador>
+                            <cex:CodigoExportador>30902</cex:CodigoExportador>
+                            <cex:NumeroAutorizacionProvisional>DUNS 132540801 </cex:NumeroAutorizacionProvisional>
+                        </cex:Exportacion>
+                    </dte:Complemento>
+                </dte:Complementos>
+            </dte:DatosEmision>
+            <dte:Certificacion>
+                <dte:NITCertificador>108151654</dte:NITCertificador>
+                <dte:NombreCertificador>CORPOSISTEMAS, SOCIEDAD ANONIMA</dte:NombreCertificador>
+                <dte:NumeroAutorizacion Serie="A10A32CB" Numero="1742360531">A10A32CB-67DA-4FD3-BDC3-D8928BC5DA64</dte:NumeroAutorizacion>
+                <dte:FechaHoraCertificacion>2026-06-01T12:05:17-06:00</dte:FechaHoraCertificacion>
+            </dte:Certificacion>
+        </dte:DTE>
+        <dte:Adenda>
+            <Adicionales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns="Schema-totalletras">
+                <TotalEnLetras>TRES MIL DOSCIENTOS NOVENTA Y SEIS CON 60/100 DÓLARES </TotalEnLetras>
+                <referencia_interna>1</referencia_interna>
+                <textoadicional>Ship to Javier Perez Saavedra 2144 Peachtree Road NW, #407 Atlanta, GA 30309 United States</textoadicional>
+            </Adicionales>
+        </dte:Adenda>
+    </dte:SAT>
+</dte:GTDocumento>
